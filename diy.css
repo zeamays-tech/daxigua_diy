@@ -1,0 +1,12 @@
+.author_info {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	font-size: 12px;
+	z-index: 10000;
+	color: #fff;
+	text-align: right;
+}
+.author_info p {
+	margin: 0;
+}

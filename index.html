@@ -5,7 +5,7 @@
     <meta charset="utf-8">
 
     <!-- 微信搜索公众号『 程序员鱼皮 』，学习编程技术，发现更多好玩的项目！ -->
-    <title>合成大西瓜</title>
+    <title>合成郑丹妮-去广告养成版</title>
 
     <!--http://www.html5rocks.com/en/mobile/mobifying/-->
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1" />
@@ -53,16 +53,17 @@
         }
     </script> -->
     <script type="text/javascript">
-        var ua = navigator.userAgent.toLowerCase(); //获取判断用的对象
-        //判断是否是微信下访问
-        if (ua.match(/MicroMessenger/i) == "micromessenger") {
-            // if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
-            location.href = "https://mp.weixin.qq.com/s/m0U0L-vnD0Gu8aPJ2vcPoA";
-            // }
-        }
+        // var ua = navigator.userAgent.toLowerCase(); //获取判断用的对象
+        // //判断是否是微信下访问
+        // if (ua.match(/MicroMessenger/i) == "micromessenger") {
+        //     // if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+        //     location.href = "https://mp.weixin.qq.com/s/m0U0L-vnD0Gu8aPJ2vcPoA";
+        //     // }
+        // }
     </script>
 
     <link rel="stylesheet" type="text/css" href="style-mobile.css" />
+    <link rel="stylesheet" type="text/css" href="diy.css" />
 
 </head>
 
@@ -110,7 +111,7 @@
         var adEndComplete = false;
         var resEndComplete = false;
 
-        judgeLanTitle();
+        // judgeLanTitle();
 
         function judgeLanTitle() {
 
@@ -262,6 +263,11 @@
             document.body.appendChild(cocos2d);
         })();
     </script>
+
+    <div class="author_info">
+        <p>source code written by https://github.com/liyupi</p>
+        <p>modified by weibo @zeamays</p>
+    </div>
 
 
 
